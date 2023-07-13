@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
+//Delete Operation
+
 public class ArrayListTwo {
 
 	public static void main(String[] args) {
@@ -30,7 +32,7 @@ public class ArrayListTwo {
          System.out.println(enames);  //[Sachin, Dhoni, Tamim, Faf]
          //Removes all of the elements from this list.
          enames.clear();
-         System.out.println(enames);
+         System.out.println(enames);  //[]
 
 	}
 
