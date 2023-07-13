@@ -15,11 +15,13 @@ public class ArrayListString {
           
           System.out.println(al1);  //[Tamil, Selvan, Vijay, Nayan]
 
-          
+          //getting the value
           System.out.println(al1.get(0));  //Tamil
           
+          
+          //seting the value
           al1.set(0, "Tamim");
-          System.out.println(al1);
+          System.out.println(al1);  //[Tamim, Selvan, Vijay, Nayan]
 	}
 
 }
