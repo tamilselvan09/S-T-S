@@ -33,9 +33,9 @@ public class DataOperaction {
 		System.out.println(enames);   //[Vignesh, Vasu, Sumanth, Praveen, Naveen, Mano, AB]
 		
 		//Every time is showing diffrent 
-		System.out.println(enames);
+		System.out.println(enames);  //before shuffle
 		Collections.shuffle(enames);
-		System.out.println(enames);
+		System.out.println(enames);  //After shuffle
 		
 		
 		
