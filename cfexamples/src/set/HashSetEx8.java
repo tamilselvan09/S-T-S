@@ -25,9 +25,20 @@ public class HashSetEx8 {
 		hs2.add(50);
 		hs2.add(60);
 		
-		
+		//Union
 		hs1.addAll(hs2);
+		System.out.println(hs1); //[50, 20, 40, 10, 60, 30]
+		
+		//Intersection
+		hs1.retainAll(hs2);
 		System.out.println(hs1);
+		
+		//Diffrence
+		hs1.remove(hs2);
+		System.out.println(hs1);
+		
+		
+		
 	}
 
 }
