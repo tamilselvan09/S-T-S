@@ -1,5 +1,5 @@
 package set;
-//Hash Set Operation
+
    //Union
    //Intersection
     //Difference
@@ -11,33 +11,28 @@ public class HashSetEx8 {
 
 	public static void main(String[] args) {
 	
-		HashSet <Integer> hs1=new HashSet<Integer>();
-		HashSet <Integer> hs2=new HashSet<Integer>();
+		HashSet<Integer> num = new HashSet<Integer>();
+	
+		num.add(2);
+		num.add(4);
+		num.add(6);
+		num.add(8);
+		num.add(10);
 		
-		hs1.add(10);
-		hs1.add(20);
-		hs1.add(30);
-		hs1.add(40);
+		HashSet<Integer> odd_num = new HashSet<Integer>();
+		odd_num.add(1);
+		odd_num.add(3);
+		odd_num.add(5);
+		odd_num.add(7);
+		odd_num.add(9);
 		
+		num.addAll(odd_num);
+		System.out.println(num);  //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+		System.out.println(odd_num);
 		
-		hs2.add(30);
-		hs2.add(40);
-		hs2.add(50);
-		hs2.add(60);
-		
-		//Union
-		hs1.addAll(hs2);
-		System.out.println(hs1); //[50, 20, 40, 10, 60, 30]
-		
-		//Intersection
-		hs1.retainAll(hs2);
-		System.out.println(hs1);
-		
-		//Diffrence
-		hs1.remove(hs2);
-		System.out.println(hs1);
-		
-		
+		odd_num.retainAll(num);
+		System.out.println(odd_num); //[1, 3, 5, 7, 9]
+		System.out.println(num);   //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 		
 	}
 
