@@ -31,7 +31,7 @@ public class HashSetEx9 {
 		
 		//Intersection
 		hs1.retainAll(hs2);
-		System.out.println(hs1);
+		System.out.println(hs1);  //[50, 40, 60, 30]
 		
 		//Difference
 		hs1.remove(hs2);
