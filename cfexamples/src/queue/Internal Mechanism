@@ -1,0 +1,12 @@
+Internal Mechanism in Queue Interface:
+
+FIFO---> First In First Out
+
+In Java, the Queue interface is a sub type of the Collection interface and represents a collection of elements in a specific order. It follows the first-in, first-out (FIFO) principle, which means that the elements are retrieved in the order in which they were added to the queue.
+
+
+Internal Mechanism in Stack Class:
+
+LIFO---> Last In First Out
+
+Java Collection framework provides a Stack class that models and implements a Stack data structure. The class is based on the basic principle of last-in-first-out. In addition to the basic push and pop operations, the class provides three more functions of empty, search, and peek. 

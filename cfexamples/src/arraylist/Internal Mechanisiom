@@ -1,0 +1,3 @@
+Internal Mechanism in List Interface:
+
+ The internal working of the list in Java is based on the indexing mechanism. The classes such as ArrayList, LinkedList, vector, stack,copyonwriteArrayList, and Abstract list implement the features of the list by implementing the List interface.

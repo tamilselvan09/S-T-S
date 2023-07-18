@@ -1,0 +1,3 @@
+Internal Mechanism in Set Interface:
+
+Set data structure is used to store unique values only, meaning no duplicate values would be stored in a set. When a HashSet is created, it internally implements a HashMap. An element can be inserted into the HashSet using the 'add' function.

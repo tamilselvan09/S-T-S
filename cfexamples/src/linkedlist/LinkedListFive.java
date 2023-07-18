@@ -8,6 +8,7 @@ public class LinkedListFive {
 	public static void main(String[] args) {
 		//sort
 		//shuffle
+		//reverseOrder
 		
 		LinkedList<String> enames=new LinkedList<String>();
 		enames.add("Rahul");
@@ -33,7 +34,7 @@ public class LinkedListFive {
 		
 		Collections.shuffle(enames);
 		
-		System.out.println(enames);
+		System.out.println(enames); //shuffle the all method
 	}
 
 }
