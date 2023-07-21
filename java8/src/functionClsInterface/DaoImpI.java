@@ -14,7 +14,7 @@ public class DaoImpI implements DaoInterface{
 		
 	}
 	public static void main(String[] args) {
-		//DaoImpl dao = new DaoImpl();
+		//Daoimpl dao = new Daoimpl();
 		//dao.login();
 	}
 	
