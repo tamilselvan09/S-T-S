@@ -8,8 +8,7 @@ import functionClsInterface.Test;
 
 public class TestOne {
 
-	
-	
+	//Lambda
 	public static void main(String[] args) {
  Predicate<Integer>p = a->a>100;
 		
@@ -19,3 +18,5 @@ public class TestOne {
 	}
 
 }
+
+  //Predicate written  always boolean value 
