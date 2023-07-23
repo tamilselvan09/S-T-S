@@ -39,9 +39,9 @@ public class Account {
 		a1.setAcc_Id(100);
 		a1.setAcc_Name("Tamil");
 		
-		System.out.println(a1.toString());
-		System.out.println(a1.getAcc_Id());
-		System.out.println(a1.getAcc_Name());
+		System.out.println(a1.toString());  //Account [getAcc_Id()=100, getAcc_Name()=Tamil]
+		System.out.println(a1.getAcc_Id()); //100
+		System.out.println(a1.getAcc_Name());//Tamil
 		
 	}
 	
