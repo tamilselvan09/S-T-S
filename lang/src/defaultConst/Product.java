@@ -4,7 +4,7 @@ public class Product {
 	
 	int prodId;
 	static String prodCat;
-	//default constructer
+	//default constructed
 	
 	Product(){
 		super();
