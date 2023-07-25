@@ -1,0 +1,15 @@
+Abstract:
+    (Data Hiding)
+ =>There is no implimentasion,only declarision
+     
+Encapsulation:
+	(Binding Data & Method as one Entity)
+=>Binding a Data Using Setters & Getters
+
+Inheritance:
+	(code Reusability)	
+=>Allows us to create a new class from an existing class	  
+
+Polymorphism:
+	( Object Act like many forms)   
+=>Reusing the Functionality And Adding new Feature	
