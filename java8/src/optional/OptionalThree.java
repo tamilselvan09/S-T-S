@@ -8,20 +8,20 @@ public class OptionalThree {
 	public static void main(String[] args) {
 		//Normal level Optional 
 		
-		String ename = "Rahul";
-		//String ename = null;
+		//String ename = "Rahul";
+		String ename = null;
 		
 		System.out.println(ename.length());  //lang.NullPointerException
 		
 		Optional<String> op = Optional.ofNullable(ename);
 		
 		if(op.isEmpty()) {  //is empty always return boolean value
-			System.out.println(op.get().toUpperCase());
+			System.out.println("Value Null");
 		}
 		else {
 
-		
-		System.out.println("Value Null");
+		System.out.println(op.get().toUpperCase());
+
 	}
 		
 	}
